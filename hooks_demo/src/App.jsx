@@ -4,14 +4,25 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  let counter=10
+  let [counter,setCounter]=useState(0)
+  let addValue=()=>{
+    if(counter<20){
+      setCounter(counter+1)
+    }
+  }
+  let subValue=()=>{
+    if(counter>0){
+      setCounter(counter-1)
+    }
+  }
+
   return (
     <>
       <h1>Hello, World!</h1>
       <h2>Counter Value :{counter}</h2>
-      <button>Increment</button>
+      <button onClick={addValue}>Increment</button>
       <br/><br/>
-      <button>Decrement</button>
+      <button onClick={subValue}>Decrement</button>
       
     </>
   )
