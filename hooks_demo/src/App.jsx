@@ -16,6 +16,21 @@ function App() {
     }
   }
 
+// function App(){
+//   const [counter,setCounter]=useState(0)
+//   const addValue=()=>{
+//     setCounter(counter+1)
+//     setCounter(counter+1)
+//     setCounter(counter+1)
+//     setCounter(counter+1)
+//   }
+//   const add_Value = () => {
+//   setCounter(prev => prev + 1);
+//   setCounter(prev => prev + 1);
+//   setCounter(prev => prev + 1);
+//   setCounter(prev => prev + 1);
+//   }
+ 
   return (
     <>
       <h1>Hello, World!</h1>
