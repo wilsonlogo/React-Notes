@@ -5,10 +5,10 @@ import viteLogo from '/vite.svg'
 function App() {
   
   return (
-    <div className="min-h-screen bg-blue-400 flex items-center justify-center ">
-      <h1 className="text-4xl font-bold text-white ">Password Generator</h1>
+    <div className="h-screen bg-blue-600 text-white flex items-center justify-center text-4xl">
+      If you see this, Tailwind works.
     </div>
-  )
+  );
 }
 
 export default App
